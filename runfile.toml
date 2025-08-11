@@ -1,0 +1,30 @@
+[tar-periphery]
+alias = "tp"
+description = "Assumes built periphery located at ../komodo/target/release/periphery"
+cmd = """
+cp ../komodo/target/release/periphery . &&
+tar -czvf periphery.tar.gz periphery periphery.config.toml && \
+rm periphery && \
+echo "\n$(shasum -a 256 periphery.tar.gz)"
+"""
+
+[tar-km]
+alias = "tk"
+description = "Assumes built km located at ../komodo/target/release/km"
+cmd = """
+cp ../komodo/target/release/km . &&
+tar -czvf km.tar.gz km && \
+rm km && \
+echo "\n$(shasum -a 256 km.tar.gz)"
+"""
+
+[tar]
+alias = "t"
+description = "both tar-periphery and tar-km"
+after = ["tar-periphery", "tar-km"]
+cmd = "echo 'finished'"
+
+[publish]
+alias = "p"
+description = ""
+cmd = "deno run --allow-all ./scripts/publish.ts"
