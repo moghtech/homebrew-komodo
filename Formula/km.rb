@@ -1,8 +1,8 @@
 class Km < Formula
   desc "Cli to interact with Komodo Core"
   homepage "https://komo.do"
-  url "https://github.com/moghtech/homebrew-komodo/releases/download/v1.19.0-dev-9/km.tar.gz"
-  sha256 "f9ea0c622b5c3734e89245212ff75c3b81eedabedd2d1b09156d900f5c8f1286"
+  url "https://github.com/moghtech/homebrew-komodo/releases/download/v1.19.0/km.tar.gz"
+  sha256 "02d987527ba5d89c214bd38d4e9b08ad16365318179563d2e302ae9a10d5102b"
   license "GPL-V3.0"
 
   def install
