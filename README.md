@@ -17,7 +17,7 @@ brew tap moghtech/komodo
 ## Install CLI
 
 ```sh
-brew install km
+brew install moghtech/komodo/km
 ```
 
 And configure your [`komodo.cli.toml`](https://github.com/moghtech/komodo/blob/main/config/komodo.cli.toml) at `$HOME/.config/komodo/komodo.cli.toml`.
@@ -26,7 +26,7 @@ For more information, see [the docs](https://komo.do/docs/cli#configure).
 ## Install Periphery
 
 ```sh
-brew install periphery && \
+brew install moghtech/komodo/periphery && \
 	brew services start periphery
 ```
 
@@ -34,5 +34,3 @@ brew install periphery && \
 - periphery (binary)    -> `/opt/homebrew/bin/periphery`
 - periphery.config.toml -> `/opt/homebrew/etc/komodo/periphery.config.toml`
 - log                   -> `/opt/homebrew/var/log/komodo/periphery.log`
-- stack directory       -> `/opt/homebrew/var/komodo/stacks/`
-- repo directory        -> `/opt/homebrew/var/komodo/repos/`
