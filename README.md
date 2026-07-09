@@ -26,7 +26,8 @@ For more information, see [the docs](https://komo.do/docs/ecosystem/cli#configur
 
 ```sh
 brew install moghtech/komodo/periphery && \
-	brew services start periphery
+    echo "root_directory = $(brew --prefix)/etc/komodo" >> "$(brew --prefix)/etc/komodo/periphery.config.toml" && \
+    brew services start periphery
 ```
 
 ### Relevant Paths
