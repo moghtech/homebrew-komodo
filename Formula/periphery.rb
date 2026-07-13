@@ -38,7 +38,7 @@ class Periphery < Formula
 
     bin.install binary_name => "periphery"
 
-    (etc/"komodo").install buildpath.parent/"periphery.config.toml"
+    (etc/"komodo").mkpath
 
     (var/"komodo").mkpath
     (var/"log/komodo").mkpath
