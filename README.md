@@ -29,6 +29,9 @@ brew install moghtech/komodo/periphery && \
 	brew services start periphery
 ```
 
+And configure your [`periphery.config.toml`](https://github.com/moghtech/komodo/blob/main/config/periphery.config.toml) at `$(brew --prefix)/etc/komodo/periphery.config.toml`.
+For more information, see [the docs](https://komo.do/docs/setup/connect-servers#configuration).
+
 ### Relevant Paths
 - periphery (binary)    -> `$(brew --prefix)/bin/periphery`
 - periphery.config.toml -> `$(brew --prefix)/etc/komodo/periphery.config.toml`
