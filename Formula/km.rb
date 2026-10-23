@@ -18,12 +18,12 @@ class Km < Formula
   on_linux do
     on_arm do
       url "https://github.com/moghtech/komodo/releases/download/v#{version}/km-aarch64"
-      sha256 "bea0aed01c8bfe1837c2b014c5c36b246e7a8c108672bdef7f7e23c0d63bbc67"
+      sha256 "8337e3860e2417df88a401ccdfe376a5dabd92532de6c408e1f8c00439c0365c"
     end
 
     on_intel do
       url "https://github.com/moghtech/komodo/releases/download/v#{version}/km-x86_64"
-      sha256 "0828eace585e80474d58097f01674320812b97fb45ee647432a1b872f621e2cf"
+      sha256 "cdf4efb4f0f2f36212b18edd0ad98fead4d04d19e5a3edbfb0de8c4c9d4f6435"
     end
   end
 

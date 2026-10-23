@@ -18,12 +18,12 @@ class Periphery < Formula
   on_linux do
     on_arm do
       url "https://github.com/moghtech/komodo/releases/download/v#{version}/periphery-aarch64"
-      sha256 "fd2f7b73af94ed56ed1d0dbeefde49dc014730060c3083245cbe93bbf0362768"
+      sha256 "f49dc4cfab0046563cab9d7f3910e92e083f7742161a8b877bd60e2e74550feb"
     end
 
     on_intel do
       url "https://github.com/moghtech/komodo/releases/download/v#{version}/periphery-x86_64"
-      sha256 "aa73d493d0d66c8bdcb215e59fb0ca20210c8c9863f105e6f7023ab00edf7b10"
+      sha256 "46d50313970aea59d293bbe237648f4becea74e8abc2f30f1bb62b73456fc72e"
     end
   end
 
