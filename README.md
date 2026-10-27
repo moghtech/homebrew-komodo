@@ -1,7 +1,7 @@
 # Komodo Homebrew 🦎
 
-This is a homebrew tap to install the [Komodo CLI](https://komo.do/docs/cli)
-and [Komodo Periphery](https://komo.do/docs/connect-servers) on macOS (Apple silicon)
+This is a homebrew tap to install the [Komodo CLI](https://komo.do/docs/ecosystem/cli)
+and [Komodo Periphery](https://komo.do/docs/setup/connect-servers) on macOS (Apple silicon)
 and Linux (x86_64 / aarch64).
 
 Periphery can be used alongside [Docker Desktop](https://www.docker.com/products/docker-desktop),
@@ -20,7 +20,7 @@ brew install moghtech/komodo/km
 ```
 
 And configure your [`komodo.cli.toml`](https://github.com/moghtech/komodo/blob/main/config/komodo.cli.toml) at `$HOME/.config/komodo/komodo.cli.toml`.
-For more information, see [the docs](https://komo.do/docs/cli#configure).
+For more information, see [the docs](https://komo.do/docs/ecosystem/cli#configure).
 
 ## Install Periphery
 
